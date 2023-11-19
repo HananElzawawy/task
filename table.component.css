@@ -1,0 +1,13 @@
+.table{
+    background-color: rgba(250, 250, 250, 0.945);
+ 
+}
+
+.button1 {background-color:blue};
+.button2 {background-color: orange};
+.button3 {background-color:yellow}
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
