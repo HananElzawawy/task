@@ -7,7 +7,10 @@
 <br>
     <label for="pwd">Password:</label><br>
     <input type="password" [value]="password">
-<button type="button" class=" btn btn-warning" [disabled]="numbervar ===6">sucsess</button>
-<button type="button"[class.redclass]="red" [class.greenclass]="green"(clic)="changecolor()">sucsess</button>
+<button type="button" class=" btn btn-success" [disabled]="numbervar ===6">sucsess</button>
+<button type="button" class=" btn" [disabled]="numbervar ===6">cssclass</button>
+<button type="button"[class.redclass]="red" [class.greenclass]="green"(click)=" changecolor()">callclass css by binding</button> 
 </form>
 </div>
+<input #phone placeholder="phone number" />
+<button type="button" (click)="callPhone(phone.value)">Call</button>
